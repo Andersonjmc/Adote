@@ -1,0 +1,36 @@
+/*div principal*/
+.principal {
+    width: 100%;
+    display: flex;
+    margin-top: 43%;
+    height: 45px;
+    text-align: center;
+    font-size: 5vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    }
+/*div secundária*/
+.box {
+    width: 150px;
+    border: 1px solid black;
+    }
+/*div caixa de texto*/
+.n1 {
+    background-color: green;
+    text-align: center;
+    width: 80%;
+    }
+    
+.n2 {
+    background-color:aqua;
+    border: 2px;
+}
+.n3 {
+    background-color:red;
+}
+.n4 {
+    background-color: yellow;
+}
+.n1:hover {
+   font-size: 35px;
+}
