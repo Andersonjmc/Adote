@@ -2,10 +2,8 @@
 .principal {
     width: 100%;
     display: flex;
-    margin-top: 43%;
-    height: 45px;
+    height: 20px;
     text-align: center;
-    font-size: 5vh;
     border: 1px solid black;
     border-radius: 5px;
     }
@@ -16,21 +14,61 @@
     }
 /*div caixa de texto*/
 .n1 {
-    background-color: green;
+    background-color: gray;
     text-align: center;
     width: 80%;
+    font-family: fantasy;
     }
     
 .n2 {
-    background-color:aqua;
-    border: 2px;
-}
+    background-color: gray;
+    }
 .n3 {
-    background-color:red;
+    background-color: gray;
 }
 .n4 {
-    background-color: yellow;
+    background-color: gray;
 }
 .n1:hover {
-   font-size: 35px;
+   color: blanchedalmond;
 }
+.logo:hover{
+    background-color: crimson;
+}
+
+.logo {
+    background-color: red;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    width: 50vh;
+    flex-direction: row;
+    margin: 50px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+body {
+    background-color: coral;
+    }
+    .img {
+        border-radius: 5px;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .flex-container {
+        display: flex;    
+        flex-flow: row wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+    .flex-item {
+        background-color: black;
+        width: 444px;
+        height: 182px;
+        color: white;
+        text-align: center; 
+        }
+           
+    
